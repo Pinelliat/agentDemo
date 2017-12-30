@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg"
+     width="64" height="64">
+    <g>
+        <rect height="40" width="40" y="12" x="12" fill="#c8e6c9" stroke="#4caf50" stroke-linejoin="round"
+              stroke-width="1"/>
+        <path d="m11.994,12.45l0.456,-0.456l13.55,13.546l-0.46,0.46l-13.546,-13.55" fill="#4caf50"
+              fill-rule="evenodd"/>
+        <path d="m52.007,51.54l-0.467,0.467l-12.546,-12.547l0.467,-0.467l12.546,12.547" fill="#4caf50"
+              fill-rule="evenodd"/>
+        <path d="m51.55,11.994l0.456,0.456l-13.546,13.55l-0.46,-0.46l13.55,-13.546" fill="#4caf50"
+              fill-rule="evenodd"/>
+        <path d="m12.46,52.007l-0.467,-0.467l12.547,-12.546l0.467,0.467l-12.547,12.546" fill="#4caf50"
+              fill-rule="evenodd"/>
+        <text font-size="12" font-family="Microsoft YaHei" x="20.5" y="36.5" fill="#4caf50">绿化
+        </text>
+    </g>
+</svg>

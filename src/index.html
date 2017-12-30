@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>远传 · 座位图绘制</title>
+</head>
+<body>
+
+<div id="app"></div>
+
+<script>
+    var app = new (Vue.component('AgentAppMaker'))({
+        el: '#app',
+        data: {
+            // 获取数据的回掉函数
+            fetch: function (resolve, reject) {
+                axios.get('/api/data')
+                    .then(function (res) {
+                        resolve(res.data);
+                    })
+                    .catch(reject);
+            },
+            // 保存数据的回掉函数
+            persist: function (resolve, reject) {
+                let data = this.getData();
+                axios.post('/api/save', data)
+                    .then(function (res) {
+                        resolve(res.data);
+                    })
+                    .catch(reject);
+            },
+            getItemTitle: function (item) {
+                return '<span>' + item.code + '</span>';
+            }
+        }
+    });
+</script>
+
+</body>
+</html>

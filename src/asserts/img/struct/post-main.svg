@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg"
+     width="64" height="64"
+     viewBox="0 0 64 64">
+    <defs>
+        <style>
+            .cls-2 {
+            fill: #a6bdc8;
+            opacity: 0.7;
+            }
+
+            .cls-3 {
+            fill: none;
+            stroke: #456270;
+            stroke-width: 1px;
+            }
+
+            .cls-4 {
+            font-size: 14px;
+            font-family: "Microsoft YaHei";
+            }
+
+            .cls-4, .cls-5 {
+            fill: #456270;
+            }
+
+            .cls-5 {
+            fill-rule: evenodd;
+            }
+        </style>
+    </defs>
+    <g>
+        <g>
+            <rect class="cls-2" x="12" y="12" width="40" height="40"/>
+            <rect class="cls-3" x="12" y="12" width="40" height="40"/>
+            <text class="cls-4" x="25" y="37">柱</text>
+            <path class="cls-5" d="M52.01,51.284l-0.726.726L39.99,40.716l0.726-.726L52.01,51.284"/>
+            <path class="cls-5" d="M11.99,51.284l0.726,0.726L24.01,40.716l-0.726-.726L11.99,51.284"/>
+            <path class="cls-5" d="M52.01,12.716l-0.726-.726L39.99,23.284l0.726,0.726L52.01,12.716"/>
+            <path class="cls-5" d="M11.99,12.716l0.726-.726L24.01,23.284l-0.726.726L11.99,12.716"/>
+        </g>
+    </g>
+</svg>

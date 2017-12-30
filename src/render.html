@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>远传 · 座位图</title>
+</head>
+<body>
+
+<div id="app"></div>
+
+<script>
+    var app = new (Vue.component('AgentAppRender'))({
+        el: '#app',
+        data: {
+            // 获取数据的回掉函数
+            fetch: function (resolve, reject) {
+                axios.get('/api/data')
+                    .then(function (res) {
+                        resolve(res.data);
+                    })
+                    .catch(reject);
+            },
+            // 保存数据的回掉函数
+            persist: function (resolve, reject) {
+                let data = this.getData();
+                axios.post('/api/save', data)
+                    .then(function (res) {
+                        resolve(res.data);
+                    })
+                    .catch(reject);
+            },
+            getItemTitle: function (item) {
+                return '<span>' + item.code + '</span>';
+            }
+        }
+        // itemSelected事件在有编号的坐席被选中时触发
+    }).$on('itemSelected', function (item) {
+        console.log(item);
+        // packageOpened事件在场地被选中时触发
+    }).$on('packageOpened', function (items, pack) {
+        // 参数items为当前场地里的坐席列表，pack为场地对象
+        // 可根据坐席列表去请求并刷新坐席的状态
+        console.log(items);
+    });
+</script>
+
+</body>
+</html>

@@ -1,0 +1,14 @@
+<svg width="64" height="64" xmlns="http://www.w3.org/2000/svg">
+    <g>
+        <rect height="54" width="54" y="10" x="5" fill="#eaeef0"/>
+        <path class="desk-border" d="m64,64l-5,0l0,-54l-59,0l0,54l5,0l0,-54l-5,0l0,-10l64,0l0,64z" fill-rule="evenodd"
+              fill="#a1887f"/>
+        <g class="desk-agent" display="none" fill="#fe7964">
+            <circle r="9" cy="29" cx="32.000003"/>
+            <path d="m14.141003,49a15.01,15.01 0 0 1 9.076,-11.842a11.959,11.959 0 0 0 17.565,0a15.01,15.01 0 0 1 9.077,11.842l-35.718,0z"
+                  fill-rule="evenodd"/>
+            <path d="m43.000003,33l0,-10a5,5 0 1 1 0,10zm-27,-5a5,5 0 0 1 5,-5l0,10a5,5 0 0 1 -5,-5z"/>
+            <path d="m32.000003,17a11,11 0 0 0 -11,11l-2,0a13,13 0 1 1 26,0l-2,0a11,11 0 0 0 -11,-11z"/>
+        </g>
+    </g>
+</svg>

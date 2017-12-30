@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg"
+     width="64" height="64"
+     viewBox="0 0 64 64">
+    <defs>
+        <style>
+            .cls-0 {
+            fill: #e6ebed;
+            }
+
+            .cls-1 {
+            fill: #bfc9cd;
+            }
+
+            .cls-1, .cls-3 {
+            fill-rule: evenodd;
+            }
+
+            .cls-2 {
+            fill: #f7f7f7;
+            }
+
+            .cls-3 {
+            fill: #456270;
+            }
+        </style>
+    </defs>
+    <rect class="cls-0" width="64" height="64"/>
+    <path class="cls-1" d="M0,0H1V64H0V0M1,16V15H64v1H1M1,46V45H64v1H1"/>
+    <g>
+        <g>
+            <rect class="cls-2" x="26" width="11" height="64"/>
+            <path class="cls-3" d="M31,0h1V64H31V0"/>
+            <path class="cls-3" d="M26,0h1V64H26V0"/>
+            <path class="cls-3" d="M36,0h1V64H36V0"/>
+        </g>
+        <rect class="cls-2" x="37" width="27" height="64"/>
+    </g>
+</svg>

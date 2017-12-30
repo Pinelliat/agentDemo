@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg"
+     width="64" height="64"
+     viewBox="0 0 64 64">
+    <defs>
+        <style>
+            .cls-0 {
+            fill: #e6ebed;
+            }
+
+            .cls-1 {
+            fill: #bfc9cd;
+            }
+
+            .cls-1, .cls-4, .cls-6 {
+            fill-rule: evenodd;
+            }
+
+            .cls-2 {
+            fill: #f7f7f7;
+            }
+
+            .cls-3 {
+            fill: #a6bdc8;
+            }
+
+            .cls-4 {
+            fill: none;
+            stroke: #795548;
+            stroke-width: 1px;
+            stroke-dasharray: 4 2;
+            }
+
+            .cls-5 {
+            fill: #a1887f;
+            }
+
+            .cls-6 {
+            fill: #456270;
+            }
+        </style>
+    </defs>
+    <rect class="cls-0" width="64" height="64"/>
+    <path class="cls-1" d="M0,18V17H63v1H0M0,48V47H63v1H0"/>
+    <g>
+        <g>
+            <rect class="cls-2" x="26" width="38" height="64"/>
+            <rect class="cls-3" x="26" y="48" width="11" height="16"/>
+        </g>
+        <g>
+            <path class="cls-4" d="M26.024,14.116s37.97-4.21,37.97,37.892"/>
+            <rect class="cls-5" x="26" y="48" width="38" height="6"/>
+        </g>
+    </g>
+    <path class="cls-6" d="M26,54h1V64H26V54"/>
+    <path class="cls-6" d="M36,54h1V64H36V54"/>
+    <path class="cls-1" d="M0,0H1V64H0V0"/>
+</svg>
